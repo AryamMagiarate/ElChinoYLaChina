@@ -27,6 +27,10 @@ public class Calculadora {
         return a * b;
 
     }
+    
+    public static double raiz(double a) {
+        return Math.sqrt(a);
+    }
 
     public static double division(double a, double b) {
         if (b == 0) {
